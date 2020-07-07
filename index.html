@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Variables</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Change Css Variables with JS</h1>
+        <section class="controls">
+            <div>
+                color: <input type="color" name="base" class="control">
+            </div>
+            <div>
+                spacing: <input type="range" name="spacing" class="control" data-sizing="px" min=5 max=100 value=10>
+            </div>
+            <div>
+                blur: <input type="range" name="blur" class="control" data-sizing="px" min=0 max=100 value=10>
+            </div>
+        </section>
+        <img src="media/imge.jpg" alt="image">
+        <script src="main.js"></script>
+    </body>
+</html>
